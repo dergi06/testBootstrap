@@ -9,28 +9,32 @@ body {
 }
 
 /* Header/logo Title */
+/* otázka č.2 */
 .header {
   padding: 110px;
-  text-align: center;
+  text-align: right;
   background-image: url("./images/landscape.jpg");
 }
 
 /* Increase the font size of the heading */
+/* otázka č.1 */
 .header h1 {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+/* otázka č.6 */
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+  position: relative;
   top: 0;
 }
 
 /* Style the navigation bar links */
+/* otázka č.7 */
 .navbar a {
-  float: left;
+  float: right;
   display: block;
   color: white;
   text-align: center;
@@ -39,8 +43,9 @@ body {
 }
 
 /* Right-aligned link */
+/* otázka č.7 */
 .navbar a.right {
-  float: right;
+  float: left;
 }
 
 /* Change color on hover */
@@ -62,38 +67,46 @@ body {
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
+/* otázka č.4 */
+/* otázka č.8 */
 .side {
-  flex: 30%;
-  background-color: #f1f1f1;
+  flex: 25%;
+  background-color: #111cb6;
+  color: rgb(228, 228, 228);
   padding: 20px;
 }
 
 /* Main column */
+/* otázka č.8 */
 .main {   
-  flex: 70%;
+  flex: 75%;
   background-color: white;
   padding: 20px;
 }
 
 /* Footer */
+/* otázka č.5 */
 .footer {
-  padding: 20px;
+  padding: 60px;
   background: #474747;
 }
 
 /* Center the text */
+/* otázka č.3 */
 .footer p {
   text-align: center;
   font-size: 14px;
-  color: #d8d8d8;
+  color: #2bff00;
 }
 
 /* Basic styles for the post */
+/* otázka č.10 */
+/* otázka č.9 */
 .post {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(255, 0, 0);
 }
 
 /* Styles for the post heading */
